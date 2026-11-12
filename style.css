@@ -406,6 +406,7 @@ header {
 .header__img {
   width: 100%;
   max-width: 768px;
+  margin-top: 32px;
 }
 
 /* 
@@ -1437,6 +1438,10 @@ MOBILE RESPONSIVENESS ↓
 }
 
 @media (max-width: 1024px) {
+  .nav__links {
+    display: none;
+  }
+
   .btn__menu {
     display: block;
   }
