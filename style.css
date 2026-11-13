@@ -1442,6 +1442,10 @@ MOBILE RESPONSIVENESS ↓
     display: none;
   }
 
+  .header__description {
+    width: 75%;
+  }
+
   .btn__menu {
     display: block;
   }
